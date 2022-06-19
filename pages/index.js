@@ -40,7 +40,7 @@ export default function IndexPage() {
               </p>
             </div>
             <div className='btn-welcome'>
-              <a href="#">
+              <a href="https://123dor.net/account/register">
                 <button className='btn-dekstop txt-bold btn-dft btn-tx'>
                   DAFTAR SEKARANG
                 </button>
