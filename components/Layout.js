@@ -3,9 +3,9 @@ export default function Layout({ children }) {
     <>
       {children}
       <style jsx global>{`
-        *{
-          margin:0;
-          padding:0;
+        li, ol, ul {
+          padding: 0;
+          margin: 0;
         }
         a{
           text-decoration: none;

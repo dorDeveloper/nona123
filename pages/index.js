@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import { useAmp } from 'next/amp'
 import Layout from '../components/Layout'
-import { FaBars,FaStar } from "react-icons/fa";
+import { FaBars,FaStar,FaHome,FaUserAlt} from "react-icons/fa";
+import React from 'react';
 export const config = {
   amp: true,
 }
@@ -17,11 +18,16 @@ export default function IndexPage() {
       <header>
         <div className='container-menu bg ctxt'>
           <div className='nav grid p-1'>
-            <h1 className='txt-center txt-bold txt-deco'>DOR<span className='ctxt2'>123</span></h1>
+            <a href="https://dor123.vercel.app/" className='txt-white'>
+              <h1 className='pl-2 txt-bold txt-deco m-0'>DOR<span className='ctxt2'>123</span></h1>
+            </a>
             <div className='nav-button-container'>
-              <button className='nav-button ctxt txt-bold'>
-                <FaBars/>
-              </button>  
+              {/* <div>
+                Daftar
+              </div>
+              <div>
+                Login
+              </div> */}
             </div>
           </div>
         </div>
@@ -30,13 +36,13 @@ export default function IndexPage() {
         <div className='container-welcome bg2 ctxt3'>
           <div className='welcome'>
             <div className='txt-welcome txt-big txt-bold txt-shadow-white'>
-              <p>
+              <p className='m-0'>
                 Cari Situs Game Slot <span className='ctxt2'>Tergacor?</span><br/>
-                Ya Cuma Di DOR123<br/>
+                Ya Cuma Di DOR123
               </p>
-              <p className='ctxt2'> Ayo Gabung Sekarang.</p>
+              <p className='ctxt2 m-0'> Ayo Gabung Sekarang.</p>
               <p className='mt-1 txt-small txt-italic'>
-                join <a className='ctxt2' href='#'>Group Facebook</a> kami untuk lihat member yang sudah Jackpot setiap harinya.
+                join <a className='ctxt2' href='https://www.facebook.com/groups/1251136832290431'>Group Facebook</a> kami untuk lihat member yang sudah Jackpot setiap harinya.
               </p>
             </div>
             <div className='btn-welcome'>
@@ -68,7 +74,7 @@ export default function IndexPage() {
               src="/assets/banner.webp"
             ></amp-img>
         </section>
-        <a href='#'>
+        <a href='https://dor123rtp.online/'>
           <div className='txt-center btn-tx content-txt'>
             <span className='star'><FaStar/><FaStar/><FaStar/></span>Trik and Tips supaya menang Terus<span className='star'><FaStar/><FaStar/><FaStar/></span>
           </div>
@@ -171,11 +177,15 @@ export default function IndexPage() {
                     </tr>
                     <tr>
                         <th>BANK:</th>
-                        <td>💵 BCA, 💴 BRI, 💶 BNI, 💷 Mandiri.</td>
+                        <td>💵 BCA, 💴 BRI, 💶 BNI, 💷 Mandiri, 💵 CIMB,</td>
                     </tr>
                     <tr>
                         <th>E-Money:</th>
-                        <td>💳 OVO, Gopay, Dana.</td>
+                        <td>💳 OVO, Gopay, Dana, Linkaja.</td>
+                    </tr>
+                    <tr>
+                        <th>Pulsa:</th>
+                        <td>💸 XL, 🧧 Telkomsel</td>
                     </tr>
                     <tr>
                         <th>Slot Populer</th>
@@ -183,7 +193,7 @@ export default function IndexPage() {
                     </tr>
                     <tr>
                         <th>Promo Slot Terbaru</th>
-                        <td>💸 New Member 50%, 🎁 Cashback 300%, 🧧 Referral 1%</td>
+                        <td>💸 New Member 30%, 🎁 Bonus Harian 20%, 🧧 Referral 15%</td>
                     </tr>
                     <tr>
                         <th>Hubungi Kami</th>
@@ -193,8 +203,111 @@ export default function IndexPage() {
             </table>
           </div>
         </div>
+        <article>
+          <div className='container-arc'>
+            <div>
+              <h1 className='txt-center my-1'>Daftar Sebagai Member Dor123 Dan Dapatkan Bocoran Pola Slot Tergacor Setiap Hari</h1>
+              <h3>Situs Judi Slot Online Terpercaya Paling Gacor Terbaru 2022 Dor123</h3>
+              <p>
+                Dor123 merupakan website dengan permainan slot gacor terbaik dengan pilihan games slots terbaru dan terlengkap. Dengan pilihan permainan yang lengkap anda dapat mencoba peruntungan anda di berbagai tempat , anda juga dapat berpindah pindah game setelah merasa bosan dengan game yang dimainkan sebelumnya.
+              </p>
+              <p>  
+                Daftar Slot Online di dor123 tidaklah sulit dan juga GRATIS. Inilah alasan mengapa situs taruhan kami dikenal sebagai website judi slot online terbesar dan agen dari bandar judi slot terpercaya dan terbaik di Asia.
+              </p>
+                Demi kenyamanan untuk para permain, Semua permainan yang tersedia dapat diakses melalui PC dan smartphone Android atau IOS yang mempunyai akses internet sehingga anda dapat memainkan semua permainan slot yang tersedia kapanpun dan dimanapun anda berada dengan ratusan pilihan jenis permainan yang akan memanjakan anda seharian dengan kemenangan besar beserta bonus yang ditawarkan. 
+              <p>
+                kami juga menyediahakan berbagai pilihan pembayaran untuk deposit melalui e-wallet , pulsa dan transfer melalui bank-bank yang tersedia.
+                Untuk pembayaran E-wallet kami anda dapat melakukan deposit dengan DANA, OVO, GO-PAY, LINKAJA, SAKUKU.
+              </p>
+            </div>
+            <article className='my-1'>
+              <h2>Daftar Situs Slot Online</h2>
+              <p>Daftar situs slot online terbaik di situs Dor123 bisa anda temukan disini. Menemukan situs dan provider yang tepat merupakan langkah awal yang harus ditempuh oleh semua pemain slot online baik veteran maupun yang pemula. Nah berikut adalah 17 provider <a href="https://dor123.vercel.app/">Slot Online</a> Terpercaya:</p>
+                <ol className="p semibold">
+                    <li>
+                        <h3 className="h6">Slot Online Pragmatic Play</h3>
+                        <p className="m-0">Provider Situs game slot online Pragmatic Play adalah provider slot terbaik Indonesia saat ini dengan jumlah pemain terbanyak yang terus bertambah setiap harinya. Permainan yang terkenal antara lain adalah Slot WWG , Slot Zeus , Slot Princess dan masih banyak lagi permainan lainya. Selain slot, Pragmatic juga memiliki game lain yang cukup terkenal seperti Mega Wheel pragmatic yang mempunyai Host untuk memandu anda dalam bermain.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Micro Gaming</h3>
+                        <p className="m-0">Menjadi opsi atau pilihan ketiga dalam bermain slot Micro Gaming tetap menjadi salah satu pilihan terpopuler masyarakat slot. Dengan permainan yang banyak dengan jackpot yang melimpah. Slot77 dari microgaming akan membuat anda bermain tanpa memikirkan waktu sama sekali.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Live22</h3>
+                        <p className="m-0">Agen judi slot online live22 termasuk dalam kategori mudah jackpot. Dimana anda sebagai pemain dapat menikmati hujan jackpot namun bukan jackpot progressive yang biasanya di miliki oleh permainan mesin sloto modern.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Slot88</h3>
+                        <p className="m-0">Penyedia slot88 hadir dari kombinasi negara Taiwan dan China untuk memberikan anda pengalaman bermain slot dengan tema oriental yang sangat menarik dan telah di ciptakan khusus dengan cita rasa slot Asia. Berbeda dengan Pragmatic, Habanero dan Microgaming yang mengusung tema barat.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online IONSLOT</h3>
+                        <p className="m-0">Siapa yang tidak kenal dengan produk ION Casino?? Salah satu situs judi casino online paling lama ini mengeluarkan produk terbaru mereka yaitu IONSlot. Melihat kepopuleran kata kunci slot yang terus meningkat, mereka mengembangkan game-game yang tidak kalah seru dari para competitor salah satu game yang terkenal disini adalah slot magician.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online PG Soft</h3>
+                        <p className="m-0">Memasukin akhir tahun 2022 nama PG Soft atau Pocket Gaming Soft kian bersinar dengan tipe permainan slot yang berbeda. Pada Slot PGSoft ketika anda mendapatkan urutan gambar yang sama atau memecahkan gambar nilai perkalian akan terus meningkat hingga maksimal 5x tanpa scatter.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Joker123</h3>
+                        <p className="m-0">Penyedia slot joker123 merupakan pelopor pertama yang mempopulerkan permainan slot di Indonesia. Sebelum Pragmatic Play dan Habanero masuk, Slot Joker123 menjadi pilihan nomor satu para bettor. Beberapa game favorit mereka adalah Slot Roma & Slot One Night in Vegas. Bersaing dengan slot88, joker memiliki game arcade Tembak ikan Joker123 yang masih populer dan terbaik hingga sekarang.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Advant Play</h3>
+                        <p className="m-0">Slot Advant Play pasti sudah tidak asing lagi di kuping para penjudi Indonesia. Karena rumornya bermain di provider satu ini memberikan banyak keuntungan bahkan ketika anda tidak mendapatkan jackpot sekalipun dan Game yang diberikan sangat friendly untuk pemula.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Spade Gaming</h3>
+                        <p className="m-0">Jika anda sering bertanya bandar slot online apa sih yang memberikan Return To Player tertinggi atau yang biasa di sebut RTP? 10 dari 7 pemain akan menjawab spade gaming sebagai agen slot online dengan RTP 90% luar biasa sekali bukan.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Habanero</h3>
+                        <p className="m-0">Siapa sih yang tidak tahu Habanero? Pilihan kedua para pemain slot setelah pragmatic terus mengejutkan para pemain setianya lewat games yang di sajikan. Dengan update permainan terbaru setiap minggu, Slot Habanero pastinya sangat seru sekali untuk anda mainkan dan nikmati sebagai bettor sloto.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online JDB</h3>
+                        <p className="m-0">Slot JDB merupakan pendatang baru dari negeri tirai bamboo yang siap memberikan anda pengalaman bermain slot tradisional dengan kemampuan bermain secara online. Game yang terus di update dan mudah untuk dimainkan oleh para bettor Veteran membuat provider ini cukup menarik banyak minat bettor.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online CQ9</h3>
+                        <p className="m-0">Lagi-lagi pendatang dari negeri tirai bambu ikut meramaikan pasar slot online dalam negeri, dengan tampilan tradisional nan menarik. Slot CQ9 berhasil menarik minat masyarakat untuk memasang taruhan dan bermain agar bisa mendapatkan jackpot luar biasa.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Gamatron</h3>
+                        <p className="m-0">Bandar slot online Indonesia dengan jumlah Maxwin terbanyak Gamatron, menghadirkan permainan slot777 paling hoki dan pastinya gampang banget mendapatkan jackpotnya. Anda hanya perlu memutarkan Reel dan biarkan dewi fortuna yang menuntun anda menuju kemenangan. Selain itu Kami juga memiliki slot online deposit 10000.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online Playtech</h3>
+                        <p className="m-0">Penyedia permainan slot 77 PlayTech awalanya adalah salah satu pemimpin di sektor pasar Financial Trading. Setelah sukses di dunia tersebut, akhirnya PlayTech mulai mengembangkan sayap mereka di dunia perjudian online dengan permainan slot sebagai game utama.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online RTG Slot</h3>
+                        <p className="m-0">Perusahaan RTG Slot di gadang-gadang sebagai salah satu perusahaan terbaik dengan 180 jenis permainan. Real Time Gaming nama panjangnya memiliki reputasi yang tidak perlu di ragukan lagi di dunia judi online.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online PlaynGo</h3>
+                        <p className="m-0">Sebagai member baru di dunia <a href="https://dor123.vercel.app/">judi online</a> sangatlah penting menemukan tempat bermain yang sangat tepat terutama dalam dunia judi yang terus berubah ini. PlaynGo boleh menjadi pilihan anda dalam menggapai bonus member baru yang tidak tipu-tipu.</p>
+                    </li>
+                    <li>
+                        <h3 className="h6">Slot Online YGGDrasil</h3>
+                        <p className="m-0">Dengan mengedepankan jackpot progresif besar dan mudah untuk di dapatkan, YGGDrasil masuk sebagai calon pedatang baru slot online terbaik tahun 2022-2022. Situs ini memberikan bonus new member 100 dengan TO yang mudah tercapai membuat anda akan semakin bersemangan dalam bertaruh.</p>
+                    </li>
+                </ol>
+            </article>
+          </div>
+        </article>
       </div>
       <style jsx>{`
+      //article
+      .container-arc{
+        padding:20px 10px;
+      }
+      .container-arc li{
+        margin-left: 20px;
+        padding-left: 10px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
       //dekstop css
       @media only screen and (min-width: 768px) {
         .body-content{
@@ -335,18 +448,49 @@ export default function IndexPage() {
           border: none;
           font-size: 20pt;
         }
+        .hide{
+          max-height: 0;
+          overflow:hidden;
+        }
+        .nav-menu li{
+          font-size: 14pt;
+          background-color: #363636;
+          padding: 20px;
+        }
+        .nav-menu li a {
+          display: flex;
+          align-items: center;
+        }
+        .nav-menu li:hover{
+          background: #1e1e1e;
+        }
         // Reuseable Class
+        .p{
+          font-size: 11pt;
+        }
         .p-1{
           padding: 10px;
         }
         .p-2{
           padding: 20px;
         }
+        .pl-1{
+          padding-left:10px;
+        }
+        .pl-2{
+          padding-left:20px;
+        }
+        .m-0{
+          margin:0;
+        }
         .mt-1{
           margin-top:10px;
         }
         .my-1{
           margin:10px 0px;
+        }
+        .mx-1{
+          margin:0 10px;
         }
         .br-1{
           border-radius:10px;
@@ -389,6 +533,9 @@ export default function IndexPage() {
         }
         .txt-deco{
           text-decoration: line-through;
+        }
+        .txt-white{
+          color: #FFF;
         }
         .btn-tx{
           cursor:pointer;
