@@ -128,7 +128,7 @@ export default function IndexPage() {
               height="180"
               layout="responsive"
               media="(min-width:768px)"
-              src="/assets/banner.webp"
+              src="/assets/main-banner.jpg"
             ></amp-img>
             <amp-img
               alt="Mountains"
@@ -136,7 +136,7 @@ export default function IndexPage() {
               height="300"
               layout="responsive"
               media="(max-width:768px)"
-              src="/assets/banner.webp"
+              src="/assets/main-banner.jpg"
             ></amp-img>
         </section>
         <a href='https://dor123rtp.online/'>
@@ -161,7 +161,7 @@ export default function IndexPage() {
                     height="375"
                     layout="responsive"
                     className='br-1'
-                    src="/assets/banner.webp"
+                    src="/assets/gates-of-olympus-home.png"
                   ></amp-img>
                   <h4 className='p-1'>Gates of Olympus</h4>
                   </div>
@@ -178,7 +178,7 @@ export default function IndexPage() {
                     height="375"
                     layout="responsive"
                     className='br-1'
-                    src="/assets/banner.webp"
+                    src="/assets/sweet-bonanza-home.png"
                   ></amp-img>
                   <h4 className='p-1'>Sweet Bonanza</h4>
                   </div>
@@ -200,13 +200,13 @@ export default function IndexPage() {
                     height="375"
                     layout="responsive"
                     className='br-1'
-                    src="/assets/banner.webp"
+                    src="/assets/bounty-gold-home.png"
                   ></amp-img>
-                  <h4 className='p-1'>Gates of Olympus</h4>
+                  <h4 className='p-1'>Bounty Gold</h4>
                   </div>
                   <div className='card-content txt-xs txt-bold txt-center'>
-                    <p>Jam Gacor : 18:00 - 21:00</p>
-                    <p>Pola Slot : 10 - 30 - 100 (✅❌✅) DC Off</p>
+                    <p>Jam Gacor : 19:30 - 22:00</p>
+                    <p>Pola Slot : 10 - 70 - 100 (✅❌✅) DC Off</p>
                   </div>
                 </div>
                 <div className='polaGame-card'>
@@ -217,12 +217,12 @@ export default function IndexPage() {
                     height="375"
                     layout="responsive"
                     className='br-1'
-                    src="/assets/banner.webp"
+                    src="/assets/hot-fiesta-home.png"
                   ></amp-img>
-                  <h4 className='p-1'>Sweet Bonanza</h4>
+                  <h4 className='p-1'>Hot Fiesta</h4>
                   </div>
                   <div className='card-content txt-xs txt-bold txt-center'>
-                    <p>Jam Gacor : 17:00 - 20:00</p>
+                    <p>Jam Gacor : 23:00 - 01:00</p>
                     <p>Pola Slot : 10 - 30 - 100 (✅❌✅) DC On</p>
                   </div>
                 </div>
