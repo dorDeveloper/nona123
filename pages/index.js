@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useAmp } from 'next/amp'
 import Layout from '../components/Layout'
-import { FaBars,FaStar,FaHome,FaUserAlt} from "react-icons/fa";
+import { FaStar} from "react-icons/fa";
 import React from 'react';
 export const config = {
   amp: true,
@@ -9,26 +9,88 @@ export const config = {
 
 export default function IndexPage() {
   const isAmp = useAmp()
-
+  const schemaData =
+    {
+      "@context": "http://schema.org",
+      "@type": "Game",
+      "name": "Agen Game Slot Online Dor123",
+      "author": {
+          "@type": "Person", 
+          "name": " dor123"
+      },
+      "headline": "Pragmatic & Pgsoft : Dor123 Situs Judi Slot Online Terpercaya",
+      "description": "Dor123 adalah agen judi online dan situs judi slot gacor online terpercaya indonesia yang siap melayani 24 jam dan memiliki RTP yang akurat.",
+      "keywords": ["slot123, judi online, slot gacor, slot online, judi slot, situs judi slot, slot pulsa, pragmatic slot, RTP, agen slot"],
+      "image":"https://cdn.robotaset.com/assets/tpl/e55a196116/images/logo.png",
+      "url": "https://dor123.online",
+      "publisher": { 
+          "@type": "Organization", 
+          "name": "dor123" 
+      },
+      "aggregateRating": { 
+          "@type": "AggregateRating", 
+          "ratingValue": "99", 
+          "bestRating": "100", 
+          "worstRating": "0", 
+          "ratingCount": "321321" 
+      },
+      "inLanguage": "id-ID"
+  }
+  
+  const analytics = {
+    "vars" : {
+      "gtag_id": "G-QVQ3Z50SH9",
+      "config" : {
+        "G-QVQ3Z50SH9": { "groups": "default" }
+      }
+    }
+  }
   return (
     <Layout>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
       <Head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta key="desc" name="description" content="Mau main slot seru tapi juga tetap gacor ? Join situs kami sekarang juga ! Bocoran Pola dan cara main selalu kami sediakan setiap harinya." />
+        <meta key="keywords" name="keywords" content="dor123, slot online, situs slot online, agen slot online, judi online, judi online terpercaya, agen bola, bandar bola, bandar togel, togel online, agen togel online, slot online terpercaya, judi bola online, slot" />
+        <meta key="author" name="author" content="dor123" />
+        <meta key="language" name="language" content="id" />
+        <meta key="robots" name="robots" content="index, follow"/>
+        <meta key="geoname" name="geo.placename" content="Indonesia" />
+        <meta key="geocountry" name="geo.country" content="ID" />
+        <meta key="tgnnation" name="tgn.nation" content="Indonesia" />
+        <meta key="twittercard" name="twitter:card" content="summary" />
+        <meta key="twittersite" name="twitter:site" content="@SlotDor123" />
+        <meta key="twittercreator" name="twitter:creator" content="@SlotDor123" />
+        <meta key="twittertitle" name="twitter:title" content="Dor123 Slot : Main Slot Anti Rungkat Pake Bocoran Pola Kami" />
+        <meta key="twitterdesc" name="twitter:description" content="Mau main slot seru tapi juga tetap gacor ? Join situs kami sekarang juga ! Bocoran Pola dan cara main selalu kami sediakan setiap harinya." />
+        <meta key="twitterimg" name="twitter:image" content="https://dor123.online/" />
+        <meta key="theme" name="theme-color" content="#fff" />
+        <meta key="ogtitle" property="og:title" content="Dor123 Slot : Main Slot Anti Rungkat Pake Bocoran Pola Kami" />
+        <meta key="ogtype" property="og:type" content="website" />
+        <meta key="ogdesc" property="og:description" content="Mau main slot seru tapi juga tetap gacor ? Join situs kami sekarang juga ! Bocoran Pola dan cara main selalu kami sediakan setiap harinya." />
+        <meta key="ogimg" property="og:image" content="https://dor123.online/" />
+        <meta key="ogurl" property="og:url" content="https://dor123.online/"/>    
+        <link rel="canonical" href="https://dor123.online/"></link>
+        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/assets/favicon.ico" />
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <title>Dor123</title>
       </Head>
+      <amp-analytics type="gtag" data-credentials="include">
+       <script
+        type="application/json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(analytics) }}
+      /></amp-analytics>
       <header>
         <div className='container-menu bg ctxt'>
           <div className='nav grid p-1'>
-            <a href="https://dor123.vercel.app/" className='txt-white'>
+            <a href="https://dor123.online/" className='txt-white'>
               <h1 className='pl-2 txt-bold txt-deco m-0'>DOR<span className='ctxt2'>123</span></h1>
             </a>
-            <div className='nav-button-container'>
-              {/* <div>
-                Daftar
-              </div>
-              <div>
-                Login
-              </div> */}
-            </div>
           </div>
         </div>
       </header>
@@ -286,7 +348,7 @@ export default function IndexPage() {
                     </li>
                     <li>
                         <h3 className="h6">Slot Online PlaynGo</h3>
-                        <p className="m-0">Sebagai member baru di dunia <a href="https://dor123.vercel.app/">judi online</a> sangatlah penting menemukan tempat bermain yang sangat tepat terutama dalam dunia judi yang terus berubah ini. PlaynGo boleh menjadi pilihan anda dalam menggapai bonus member baru yang tidak tipu-tipu.</p>
+                        <p className="m-0">Sebagai member baru di dunia <a href="https://dor123.online/">judi online</a> sangatlah penting menemukan tempat bermain yang sangat tepat terutama dalam dunia judi yang terus berubah ini. PlaynGo boleh menjadi pilihan anda dalam menggapai bonus member baru yang tidak tipu-tipu.</p>
                     </li>
                     <li>
                         <h3 className="h6">Slot Online YGGDrasil</h3>
