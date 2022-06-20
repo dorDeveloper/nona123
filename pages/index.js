@@ -38,12 +38,15 @@ export default function IndexPage() {
   }
   
   const analytics = {
-    "vars" : {
-      "gtag_id": "G-QVQ3Z50SH9",
-      "config" : {
-        "G-QVQ3Z50SH9": { "groups": "default" }
-      }
-    }
+    "vars": {
+      "GA4_MEASUREMENT_ID": "G-QVQ3Z50SH9",
+      "GA4_ENDPOINT_HOSTNAME": "www.google-analytics.com",
+      "DEFAULT_PAGEVIEW_ENABLED": true,    
+      "GOOGLE_CONSENT_ENABLED": false,
+      "WEBVITALS_TRACKING": false,
+      "PERFORMANCE_TIMING_TRACKING": false,
+      "SEND_DOUBLECLICK_BEACON": false
+  }
   }
   return (
     <Layout>
@@ -80,7 +83,7 @@ export default function IndexPage() {
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <title>Dor123</title>
       </Head>
-      <amp-analytics type="gtag" data-credentials="include">
+      <amp-analytics type="googleanalytics" config="https://amp.analytics-debugger.com/ga4.json" data-credentials="include">
        <script
         type="application/json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(analytics) }}
