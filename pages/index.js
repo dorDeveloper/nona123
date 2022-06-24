@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useAmp } from 'next/amp'
 import Layout from '../components/Layout'
-import { FaStar} from "react-icons/fa";
+import { FaStar,FaFacebook,FaRocketchat} from "react-icons/fa";
 import React from 'react';
 export const config = {
   amp: true,
@@ -94,6 +94,14 @@ export default function IndexPage() {
             <a href="https://dor123.online/" className='txt-white'>
               <h1 className='pl-2 txt-bold txt-deco m-0'>DOR<span className='ctxt2'>123</span></h1>
             </a>
+            <div className='btn-container txt-right'>
+              <a className='d-flex' href="https://123dor.net">
+                <div className='btn-nav btn-primary mx-1'>Login</div>
+              </a>
+              <a className='mobile' href="https://123dor.net/account/register">
+                <div className='btn-nav btn-primary-outline mx-1'>Daftar</div>
+              </a>
+            </div>
           </div>
         </div>
       </header>
@@ -362,6 +370,24 @@ export default function IndexPage() {
           </div>
         </article>
       </div>
+      <footer>
+        <div class="footer-container container-global">
+          <div class="footer-contact">
+            <a href="https://api.whatsapp.com/send?phone=6288972987783">
+              <FaFacebook/>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=6288972987783">
+              <FaRocketchat/>
+            </a>
+          </div>
+
+          <div class="copyright">
+            <a class="p mt-1 text-light text-small" href="https://192.53.118.179:9443/home?ref=K0RT3Z">COPYRIGHT ©2022. All rights reserved to BTV168</a>
+          </div>
+        </div>
+
+
+      </footer>
       <style jsx>{`
       //article
       .container-arc{
@@ -384,6 +410,14 @@ export default function IndexPage() {
         }
         .btn-dekstop{
           width: 40%;
+        }
+        .mobile{
+          display: flex;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .mobile{
+          display:none;
         }
       }
       //tabel pembayaran
@@ -489,6 +523,14 @@ export default function IndexPage() {
         width:65px;
       }
       // Nav Class
+        .btn-container{
+          display:flex;
+          justify-content: right;
+        }
+        .btn-nav{
+          padding: 5px 20px;
+          border-radius: 3px;
+        }
         .container-menu{
           position: fixed;
           z-index:1;
@@ -572,6 +614,9 @@ export default function IndexPage() {
         .txt-center{
           text-align: center;
         }
+        .text-right{
+          text-align: right;
+        }
         .txt-italic{
           font-style: italic;
         }
@@ -583,6 +628,15 @@ export default function IndexPage() {
         }
         .bg2{
           background-color: #ECDBBA;
+        }
+        .btn-primary{
+          background-color: #F4E06D;
+          color: #161616;
+          font-weight: 700;
+        }
+        .btn-primary-outline{
+          border: 2px solid #F4E06D;
+          color: #F4E06D;
         }
         .ctxt{
           color: #EEEEEE;
@@ -616,6 +670,9 @@ export default function IndexPage() {
           display: grid;
           grid-template-columns: 1fr 1fr;
           align-items: center;
+        }
+        .d-flex{
+          display:flex;
         }
       `}</style>
     </Layout>
