@@ -77,9 +77,9 @@ export default function IndexPage() {
         <meta key="ogimg" property="og:image" content="https://nona123.online/" />
         <meta key="ogurl" property="og:url" content="https://nona123.online/"/>    
         <link rel="canonical" href="https://nona123.online/"></link>
-        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/assets/favicon.ico" />
-        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://cdn.rbtasset.com/assets/tpl/4222f5bac2/images/faviconOLD.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="https://cdn.rbtasset.com/assets/tpl/4222f5bac2/images/faviconOLD.ico" />
+        <link rel="icon" href="https://cdn.rbtasset.com/assets/tpl/4222f5bac2/images/faviconOLD.ico" type="image/x-icon" />
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <title>nona123</title>
       </Head>
@@ -91,7 +91,7 @@ export default function IndexPage() {
       <header>
         <div className='container-menu bg ctxt'>
           <div className='nav grid p-1'>
-            <a href="https://nona123.online/" className='txt-white'>
+            <a href="https://178.128.48.234/" className='txt-white'>
               <div className='logo'>
                 <amp-img
                   alt="Mountains"
@@ -104,10 +104,10 @@ export default function IndexPage() {
               {/* <h1 className='pl-2 txt-bold txt-deco m-0'>DOR<span className='ctxt2'>123</span></h1> */}
             </a>
             <div className='btn-container txt-right'>
-              <a className='d-flex' href="https://123dor.net">
+              <a className='d-flex' href="https://178.128.48.234/">
                 <div className='btn-nav btn-primary mx-1'>Login</div>
               </a>
-              <a className='mobile' href="https://123dor.net/account/register">
+              <a className='mobile' href="https://178.128.48.234/account/register">
                 <div className='btn-nav btn-primary-outline mx-1'>Daftar</div>
               </a>
             </div>
@@ -128,7 +128,7 @@ export default function IndexPage() {
               </p>
             </div>
             <div className='btn-welcome'>
-              <a href="https://123dor.net/account/register">
+              <a href="https://178.128.48.234/account/register">
                 <button className='btn-dekstop txt-bold btn-dft btn-tx'>
                   DAFTAR SEKARANG
                 </button>
